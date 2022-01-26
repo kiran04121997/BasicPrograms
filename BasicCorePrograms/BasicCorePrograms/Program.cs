@@ -15,7 +15,7 @@ namespace BasicCorePrograms
 
            
 
-            headTailcs.Harmonic_number();
+            headTailcs.Factorization(24);
 
 
             Console.ReadLine();
