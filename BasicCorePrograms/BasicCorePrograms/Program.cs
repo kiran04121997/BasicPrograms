@@ -12,10 +12,12 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("welcome to basic core programs");
             HeadTailcs headTailcs = new HeadTailcs();
-            HeadTailcs headTailcs1 = new HeadTailcs();
-            HeadTailcs headTailcs2 = new HeadTailcs();
 
-            headTailcs2.Powertwo();
+           
+
+            headTailcs.Harmonic_number();
+
+
             Console.ReadLine();
            
         }
