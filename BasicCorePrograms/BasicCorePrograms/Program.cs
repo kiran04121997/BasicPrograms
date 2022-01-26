@@ -13,8 +13,9 @@ namespace BasicCorePrograms
             Console.WriteLine("welcome to basic core programs");
             HeadTailcs headTailcs = new HeadTailcs();
             HeadTailcs headTailcs1 = new HeadTailcs();
+            HeadTailcs headTailcs2 = new HeadTailcs();
 
-            headTailcs1.Check_leap_year();
+            headTailcs2.Powertwo();
             Console.ReadLine();
            
         }
