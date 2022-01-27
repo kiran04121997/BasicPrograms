@@ -15,7 +15,7 @@ namespace BasicCorePrograms
 
            
 
-            headTailcs.Factorization(24);
+            headTailcs.division();
 
 
             Console.ReadLine();

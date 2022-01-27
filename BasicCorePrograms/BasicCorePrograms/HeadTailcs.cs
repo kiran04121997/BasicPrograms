@@ -8,30 +8,23 @@ namespace BasicCorePrograms
 {
     internal class HeadTailcs
     {
-            public void Factorization(int num)
-            {
-                Console.WriteLine("Enter the number");
-                for (int i = 2; i <= num; i++)
-                {
-                    if (num % i == 0)
-                    {
-                        int isprime = 1;
-                        for (int j = 2; j <= i / 2; j++)
-                        {
-                            if (i % j == 0)
-                            {
-                                isprime = 0;
-                                break;
-                            }
-                        }
-                        if (isprime == 1)
-                        {
-                            Console.WriteLine(i);
-                        }
-                    }
-                }
-            }
-        
-    
+        public void division()
+        {
+            Console.WriteLine("Enter the Dividend : ");
+            int dividend = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the Divisor : ");
+            int divisor = Convert.ToInt32(Console.ReadLine());
+
+
+            int quotient = dividend / divisor;
+            int remainder = dividend % divisor;
+
+            Console.WriteLine("Dividend: " + dividend + " Divisor: " + divisor);
+            Console.WriteLine("Quotient = " + quotient);
+            Console.WriteLine("Remainder = " + remainder);
+        }
+
+
     }
 }
