@@ -8,20 +8,18 @@ namespace BasicCorePrograms
 {
     internal class HeadTailcs
     {
-        public void Evenodd(int number)
-        {
-            if (number % 2 == 0)
+            public void vowel_consonant(char ch)
             {
-                Console.Write("Entered Number is an Even Number");
-                Console.Read();
+                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+                {
+                    Console.WriteLine(ch + " is Vowel.");
+                }
+                else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+                {
+                    Console.WriteLine(ch + " is Consonant.");
+                }
             }
-            else
-            {
-                Console.Write("Entered Number is an Odd Number");
-                Console.Read();
-            }
+
+
         }
-
-
     }
-}

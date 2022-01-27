@@ -13,9 +13,11 @@ namespace BasicCorePrograms
             Console.WriteLine("welcome to basic core programs");
             HeadTailcs headTailcs = new HeadTailcs();
 
-           
 
-            headTailcs.Evenodd(10);
+
+            Console.WriteLine("Enter charactor");
+            char alphabet = Convert.ToChar(Console.ReadLine());
+            headTailcs.vowel_consonant(alphabet);
 
 
             Console.ReadLine();
