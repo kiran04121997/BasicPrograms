@@ -15,7 +15,7 @@ namespace BasicCorePrograms
 
            
 
-            headTailcs.division();
+            headTailcs.Swaping(10,20);
 
 
             Console.ReadLine();

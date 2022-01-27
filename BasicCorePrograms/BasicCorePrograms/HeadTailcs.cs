@@ -8,21 +8,14 @@ namespace BasicCorePrograms
 {
     internal class HeadTailcs
     {
-        public void division()
+        public void Swaping(int num1, int num2)
         {
-            Console.WriteLine("Enter the Dividend : ");
-            int dividend = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter the Divisor : ");
-            int divisor = Convert.ToInt32(Console.ReadLine());
-
-
-            int quotient = dividend / divisor;
-            int remainder = dividend % divisor;
-
-            Console.WriteLine("Dividend: " + dividend + " Divisor: " + divisor);
-            Console.WriteLine("Quotient = " + quotient);
-            Console.WriteLine("Remainder = " + remainder);
+            int temp = num1;
+            num1 = num2;
+            num2 = temp;
+            Console.WriteLine("After Swapping two numbers are");
+            Console.WriteLine("First Number : " + num1);
+            Console.WriteLine("Second Number : " + num2);
         }
 
 
