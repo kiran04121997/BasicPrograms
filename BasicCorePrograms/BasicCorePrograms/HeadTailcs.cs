@@ -8,14 +8,18 @@ namespace BasicCorePrograms
 {
     internal class HeadTailcs
     {
-        public void Swaping(int num1, int num2)
+        public void Evenodd(int number)
         {
-            int temp = num1;
-            num1 = num2;
-            num2 = temp;
-            Console.WriteLine("After Swapping two numbers are");
-            Console.WriteLine("First Number : " + num1);
-            Console.WriteLine("Second Number : " + num2);
+            if (number % 2 == 0)
+            {
+                Console.Write("Entered Number is an Even Number");
+                Console.Read();
+            }
+            else
+            {
+                Console.Write("Entered Number is an Odd Number");
+                Console.Read();
+            }
         }
 
 

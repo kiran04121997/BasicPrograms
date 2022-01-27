@@ -15,7 +15,7 @@ namespace BasicCorePrograms
 
            
 
-            headTailcs.Swaping(10,20);
+            headTailcs.Evenodd(10);
 
 
             Console.ReadLine();
