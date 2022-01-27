@@ -8,18 +8,26 @@ namespace BasicCorePrograms
 {
     internal class HeadTailcs
     {
-            public void vowel_consonant(char ch)
+        public void largest_num(int num1, int num2, int num3)
+        {
+
+            if (num1 > num2)
             {
-                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+                if (num1 > num3)
                 {
-                    Console.WriteLine(ch + " is Vowel.");
+                    Console.Write("Number one is the largest!\n");
                 }
-                else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
+                else
                 {
-                    Console.WriteLine(ch + " is Consonant.");
+                    Console.Write("Number three is the largest!\n");
                 }
             }
-
-
+            else if (num2 > num3)
+                Console.Write("Number two is the largest!\n");
+            else
+                Console.Write("Number three is the largest!\n");
         }
+
+
     }
+}
