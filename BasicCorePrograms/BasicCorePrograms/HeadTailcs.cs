@@ -20,6 +20,8 @@ namespace BasicCorePrograms
             {
                 Console.WriteLine(year + "is not a Leap Year");
             }
+            else
+                Console.WriteLine("Please Enter four digit number");
         }
 
     }
