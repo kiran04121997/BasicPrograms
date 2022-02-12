@@ -10,15 +10,20 @@ namespace BasicCorePrograms
     {
         public void Check_leap_year()
         {
-            Console.WriteLine("Enter the year in 4 digit");
+           Console.WriteLine("Please Enter a Year in four digits");
             int year = Convert.ToInt32(Console.ReadLine());
-            if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
+            if (year >= 1000 && year <= 9999)
             {
-                Console.WriteLine(year + "is a Leap Year");
-            }
-            else
-            {
-                Console.WriteLine(year + "is not a Leap Year");
+
+                if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
+                {
+                    Console.WriteLine(year + " is a Leap year");
+
+                }
+                else
+                {
+                    Console.WriteLine(year + " is not a Leap year");
+                }
             }
             else
                 Console.WriteLine("Please Enter four digit number");
