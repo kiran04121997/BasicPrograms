@@ -34,7 +34,7 @@ namespace BasicCorePrograms
             }
             percentagehead = head * (100 / flip_number);
             percentagetail = tail * (100 / flip_number);
-            Console.WriteLine("Percentage of head :" + percentagehead + " Percentage of tail:" + percentagehead);
+            Console.WriteLine("Percentage of head :" + percentagehead + " Percentage of tail:" + percentagetail);
             Console.ReadKey();
         }
     }
