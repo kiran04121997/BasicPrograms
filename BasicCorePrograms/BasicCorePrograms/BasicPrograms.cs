@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicCorePrograms
 {
-    internal class HeadTailcs
+    internal class BasicPrograms
     {
         public void largest_num(int num1, int num2, int num3)
         {

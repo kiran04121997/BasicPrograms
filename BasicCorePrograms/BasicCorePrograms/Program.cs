@@ -11,7 +11,7 @@ namespace BasicCorePrograms
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to basic core programs");
-            HeadTailcs headTailcs = new HeadTailcs();
+            BasicPrograms basicprograms1 = new BasicPrograms();
             Console.WriteLine("Enter first number");
             int number1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter second number");
@@ -19,7 +19,7 @@ namespace BasicCorePrograms
             Console.WriteLine("Enter third number");
             int number3 = Convert.ToInt32(Console.ReadLine());
           
-            headTailcs.largest_num(10,20,30);
+            basicprograms1.largest_num(10,20,30);
 
 
 
