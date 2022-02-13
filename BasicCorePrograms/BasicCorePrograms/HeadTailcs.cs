@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicCorePrograms
 {
-    internal class HeadTailcs
+    internal class LeapYear
     {
         public void Check_leap_year()
         {
